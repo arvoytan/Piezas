@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/arvoytan/Piezas.svg?branch=master)](https://travis-ci.com/arvoytan/Piezas)
+[![Coverage Status](https://coveralls.io/repos/github/arvoytan/Piezas/badge.svg?branch=master)](https://coveralls.io/github/arvoytan/Piezas?branch=master)
+
 # Piezas
 
 ## Associated Enumerated Types
@@ -8,7 +11,7 @@ board
 
 **board** is a 2D vector of Pieces that represents the playing board
 ___
-`Piece turn` 
+`Piece turn`
 
 **turn** represents whose turn it is to place a piece (defaults to X)
 

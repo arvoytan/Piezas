@@ -64,19 +64,18 @@ Piece Piezas::dropPiece(int column)
       return Blank;
     }
     else{
-      for(int i =BOARD_ROWS-1; i>=0; i++ ){
+      for(int i = BOARD_ROWS-1; i>=0; i-- ){
         if(board[i][column] == Blank){
           board[i][column] = turn;
-          break;
+          if(turn == X){
+            turn  = O;
+            return X;
+          }
+          else{
+            turn = X;
+            return O;
+          }
         }
-      }
-      if(turn == X){
-        turn  = O;
-        return X;
-      }
-      else{
-        turn = X;
-        return O;
       }
     }
     return Blank;

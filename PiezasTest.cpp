@@ -57,9 +57,9 @@ TEST(PiezasTest, dropPiece_Valid)
 TEST(PiezasTest, dropPiece_InValid)
 {
   Piezas game;
-  Piece value = gamegame.dropPiece(-1);
+  Piece value = game.dropPiece(-1);
   EXPECT_EQ(Invalid, value);
-  Piece value = gamegame.dropPiece(4);
+  value = game.dropPiece(4);
   EXPECT_EQ(Invalid, value);
 }
 TEST(PiezasTest, dropPiece_No_Room)
@@ -79,9 +79,9 @@ TEST(PiezasTest, pieceAt)
   game.dropPiece(2);
   game.dropPiece(3);
   game.dropPiece(0);
-  EXPECT_EQ(X,pieceAt(0,0));
-  EXPECT_EQ(O,pieceAt(0,1));
-  EXPECT_EQ(X,pieceAt(1,0));
+  EXPECT_EQ(X,game.pieceAt(0,0));
+  EXPECT_EQ(O,game.pieceAt(0,1));
+  EXPECT_EQ(X,game.pieceAt(1,0));
 }
 TEST(PiezasTest, pieceAt_Reset)
 {

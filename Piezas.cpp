@@ -58,9 +58,21 @@ void Piezas::reset()
 Piece Piezas::dropPiece(int column)
 {
     if(column< 0 || column >BOARD_COLS-1 ){
+      if(turn == X){
+        turn  = O;
+      }
+      else{
+        turn = X;
+      }
       return Invalid;
     }
     else if(board[0][column] != Blank ){
+      if(turn == X){
+        turn  = O;
+      }
+      else{
+        turn = X;
+      }
       return Blank;
     }
     else{

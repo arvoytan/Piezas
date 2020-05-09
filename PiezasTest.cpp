@@ -50,7 +50,7 @@ TEST(PiezasTest, dropPiece_Valid)
   Piece value  = game.dropPiece(0);
   EXPECT_EQ(X, value);
   value  = game.dropPiece(0);
-  EXPECT_EQ(0, value);
+  EXPECT_EQ(O, value);
   value  = game.dropPiece(0);
   EXPECT_EQ(X, value);
 }

@@ -1,6 +1,5 @@
 [![Build Status](https://travis-ci.com/arvoytan/Piezas.svg?branch=master)](https://travis-ci.com/arvoytan/Piezas)
 [![Coverage Status](https://coveralls.io/repos/github/arvoytan/Piezas/badge.svg?branch=master)](https://coveralls.io/github/arvoytan/Piezas?branch=master)
-
 # Piezas
 
 ## Associated Enumerated Types

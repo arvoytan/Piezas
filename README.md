@@ -1,7 +1,8 @@
-[![Build Status](https://travis-ci.com/arvoytan/Piezas.svg?branch=master)](https://travis-ci.com/arvoytan/Piezas)
-[![Coverage Status](https://coveralls.io/repos/github/arvoytan/Piezas/badge.svg?branch=master)](https://coveralls.io/github/arvoytan/Piezas?branch=master)
-
 # Piezas
+
+[![Build Status](https://travis-ci.com/arvoytan/Piezas.svg?branch=master)](https://travis-ci.com/arvoytan/Piezas)
+
+[![Coverage Status](https://coveralls.io/repos/github/arvoytan/Piezas/badge.svg?branch=master)](https://coveralls.io/github/arvoytan/Piezas?branch=master)
 
 ## Associated Enumerated Types
 `Piece` has four possible values: `X`,`O`,`Invalid`, and `Blank`

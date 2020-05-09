@@ -69,6 +69,7 @@ TEST(PiezasTest, dropPiece_No_Room)
   game.dropPiece(0);
   game.dropPiece(0);
   Piece value  = game.dropPiece(0);
+  game.dropPiece(0);
   EXPECT_EQ(Blank, value);
 }
 TEST(PiezasTest, pieceAt)
